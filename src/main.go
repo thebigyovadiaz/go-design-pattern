@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/thebigyovadiaz/go-design-pattern/src/builder"
 	"github.com/thebigyovadiaz/go-design-pattern/src/decorator"
 )
 
@@ -11,4 +12,9 @@ func main() {
 
 	// Decorators
 	decorator.CoffeeDecorator()
+	fmt.Printf("\n")
+
+	// Builder
+	builder.BuildPizza()
+	fmt.Printf("\n")
 }
